@@ -1,0 +1,11 @@
+laserCompressibleMultiphaseVoFMixture/laserCompressibleVoFphase/laserCompressibleVoFphase.C
+laserCompressibleMultiphaseVoFMixture/laserCompressibleMultiphaseVoFMixtureThermo/laserCompressibleMultiphaseVoFMixtureThermo.C
+laserCompressibleMultiphaseVoFMixture/laserCompressibleMultiphaseVoFMixture.C
+
+alphaPredictor.C
+momentumPredictor.C
+thermophysicalPredictor.C
+pressureCorrector.C
+laserCompressibleMultiphaseVoF.C
+
+LIB = $(FOAM_LIBBIN)/liblaserCompressibleMultiphaseVoF
